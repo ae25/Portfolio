@@ -4,11 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
+import { render } from "react-dom";
+import {  Routes,Route} from "react-router-dom";
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Layout from './Components/Layout';
+import { Navbar } from './Components/Navbar';
 
 ReactDOM.render(
-   <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  
+  <BrowserRouter>
+  <Navbar/>
+  <Routes>
+    <Route path="/*" element={<Home/>} />
+    <Route path="about" element={<About />} />
+  </Routes>
+  
+</BrowserRouter>,
   document.getElementById('root')
 );
 
