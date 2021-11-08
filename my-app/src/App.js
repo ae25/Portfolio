@@ -4,6 +4,7 @@ import { Route, Routes, Navigate, Link, Outlet } from "react-router-dom";
 import About from "./Pages/About";
 import Layout from "./Components/Layout";
 import Home from './Pages/Home';
+import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div>

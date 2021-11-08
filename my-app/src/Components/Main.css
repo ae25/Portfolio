@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap");
+
+#paragraphWrapper{
+    display: flex;
+width: 101vw;
+justify-content: center;
+padding-top: 20px;
+}
+    #body-text, #typewriter-span{
+        width: 98vw;
+        font-family: "Anonymous Pro", monospace;
+        font-size: 47px;
+        line-height: 74px;
+        font-weight: 600;
+        color: #494d5f;
+        text-align: center;
+    }
+    .Typewriter{
+        display: inherit;
+    }
+
+@media all and (max-width: 1200px) and (min-width: 1025px){
+
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+}
+@media all and (max-width: 768px) and (min-width: 481px){
+  
+}
+@media all and (max-width: 480px) and (min-width: 320px){
+  
+}
+

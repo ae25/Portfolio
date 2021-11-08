@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap");
+
+#project-wrapper{
+    display: flex;
+flex-direction: row;
+width: 100vw;
+justify-content: space-evenly;
+padding-left: 2vw;
+padding-top: 5em;
+}
+
+#card-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 28vw;
+
+    font-family: "Anonymous Pro", monospace;
+}
+#card-Title{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 0 16px 0;
+}
+#card-Date{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    margin: 0 0 16px 0;
+}
+#card-Summary{
+    font-size: 24px;
+    width: inherit;
+    margin: 0;
+}
